@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>グーグルドライブから直リンクを生成するブックマークレット | 寝過ごした日々に</title>
+  <meta name="author" content="youkyll">
+  
+  <meta name="description" content="グーグルドライブから直リンクを生成するブックマークレットを作成しました！画像やソースコード、静的なwebサイトを作成するときに便利なんじゃないでしょうか！
+()[https://gist.github.com/youkyll/fa12b23ee3593c1ce39b]
+作成にはこちらのサイトを参考に">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="グーグルドライブから直リンクを生成するブックマークレット"/>
+  <meta property="og:site_name" content="寝過ごした日々に"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="寝過ごした日々に" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-49963718-2']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">寝過ごした日々に</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-05-23T04:13:01.000Z"><a href="/2015/05/23/gd-link/">2015-05-23</a></time>
+      
+      
+  
+    <h1 class="title">グーグルドライブから直リンクを生成するブックマークレット</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>グーグルドライブから直リンクを生成するブックマークレットを作成しました！<br>画像やソースコード、静的なwebサイトを作成するときに便利なんじゃないでしょうか！</p>
+<p>()[<a href="https://gist.github.com/youkyll/fa12b23ee3593c1ce39b" target="_blank" rel="external">https://gist.github.com/youkyll/fa12b23ee3593c1ce39b</a>]</p>
+<p>作成にはこちらのサイトを参考にさせていただきました。</p>
+<p>(Googleドライブから外部参照用アドレスをすばやく取得するブックマークレット)[<a href="http://blogger.weblix.net/2013/04/google-drive-external-address.html" target="_blank" rel="external">http://blogger.weblix.net/2013/04/google-drive-external-address.html</a>]</p>
+<h2 id="ブックマークレットとは">ブックマークレットとは</h2><p>簡単に言うと、javascriptを利用して今表示しているサイトをより便利に加工しちゃう機能を<br>ブックマークに保存したもののことを言います。</p>
+<p>詳しくはこちらを参照してください！<br>(<a href="http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html" target="_blank" rel="external">http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html</a>)</p>
+<h2 id="使う前の準備">使う前の準備</h2><p>まずは上記のURLからソースコードをコピーしてください。</p>
+<p>その後、適当なページでCtrl Dまたはcmd Dでブックマークを作成しましょう。</p>
+<p>その作成したブックマークのURLのところに先ほどコピーしたソースコードを<br>ぺっと貼ってしまいましょう。<br>これで前準備は完了です！</p>
+<h2 id="使い方">使い方</h2><h3 id="1-フォルダーを一般公開する">1.フォルダーを一般公開する</h3><p>まずはグーグルドライブを開き、下記のような画面を表示しましょう。</p>
+<p><img src="http://gyazo.com/b5834023679afc67266d3dca06845591.png" alt=""></p>
+<p>ここで、直リンクを貼りたいフォルダーを右クリックし、共有ボタンを押しましょう。<br>詳細設定からアクセスできるユーザーを一般公開に設定します。</p>
+<h3 id="2-公開したい画像を置く。">2.公開したい画像を置く。</h3><p>次に公開したい画像をそのフォルダーの中に置きましょう。<br>このフォルダーにおいたものはURLでだれでもアクセスできてしまうことに注意！</p>
+<h3 id="3-ブックマークレットを実行">3.ブックマークレットを実行</h3><p>下記のような画面になったら、先ほど保存していたブックマークレットを実行！！</p>
+<p><img src="http://gyazo.com/ae610954487886ef654f0edc84dc834f.png" alt=""></p>
+<p>すると、各ブロックの上にopenというボタンが表示されているのがわかりますか？<br>そのボタンを押すと、そのままファイルにアクセスすることができます！！</p>
+<p>ちなみに、デベロッパーツールのコンソールには<br>ファイル名とファイルIDが表示されるようにしています。</p>
+<p>ぱぱっと適当に作ったスクリプトですが、<br>ぜひ使ってください(^_^)</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+        
+  <div class="addthis addthis_toolbox addthis_default_style">
+    
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    
+    
+      <a class="addthis_button_tweet"></a>
+    
+    
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    
+    
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-550bb39e4fef7e3d"></script>
+
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">Comments</h1>
+
+  
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:youkyll.com">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">Categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/雑談/">雑談</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">Tags</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/その他/">その他</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2015 youkyll
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'youkyll';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>

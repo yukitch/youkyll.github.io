@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[寝過ごした日々に]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://youkyll.com/"/>
+  <updated>2015-05-23T05:07:46.000Z</updated>
+  <id>http://youkyll.com/</id>
+  
+  <author>
+    <name><![CDATA[youkyll]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[グーグルドライブから直リンクを生成するブックマークレット]]></title>
+    <link href="http://youkyll.com/2015/05/23/gd-link/"/>
+    <id>http://youkyll.com/2015/05/23/gd-link/</id>
+    <published>2015-05-23T04:13:01.000Z</published>
+    <updated>2015-05-23T05:07:46.000Z</updated>
+    <content type="html"><![CDATA[<p>グーグルドライブから直リンクを生成するブックマークレットを作成しました！<br>画像やソースコード、静的なwebサイトを作成するときに便利なんじゃないでしょうか！</p>
+<p>()[<a href="https://gist.github.com/youkyll/fa12b23ee3593c1ce39b" target="_blank" rel="external">https://gist.github.com/youkyll/fa12b23ee3593c1ce39b</a>]</p>
+<p>作成にはこちらのサイトを参考にさせていただきました。</p>
+<p>(Googleドライブから外部参照用アドレスをすばやく取得するブックマークレット)[<a href="http://blogger.weblix.net/2013/04/google-drive-external-address.html" target="_blank" rel="external">http://blogger.weblix.net/2013/04/google-drive-external-address.html</a>]</p>
+<h2 id="ブックマークレットとは">ブックマークレットとは</h2><p>簡単に言うと、javascriptを利用して今表示しているサイトをより便利に加工しちゃう機能を<br>ブックマークに保存したもののことを言います。</p>
+<p>詳しくはこちらを参照してください！<br>(<a href="http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html" target="_blank" rel="external">http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html</a>)</p>
+<h2 id="使う前の準備">使う前の準備</h2><p>まずは上記のURLからソースコードをコピーしてください。</p>
+<p>その後、適当なページでCtrl Dまたはcmd Dでブックマークを作成しましょう。</p>
+<p>その作成したブックマークのURLのところに先ほどコピーしたソースコードを<br>ぺっと貼ってしまいましょう。<br>これで前準備は完了です！</p>
+<h2 id="使い方">使い方</h2><h3 id="1-フォルダーを一般公開する">1.フォルダーを一般公開する</h3><p>まずはグーグルドライブを開き、下記のような画面を表示しましょう。</p>
+<p><img src="http://gyazo.com/b5834023679afc67266d3dca06845591.png" alt=""></p>
+<p>ここで、直リンクを貼りたいフォルダーを右クリックし、共有ボタンを押しましょう。<br>詳細設定からアクセスできるユーザーを一般公開に設定します。</p>
+<h3 id="2-公開したい画像を置く。">2.公開したい画像を置く。</h3><p>次に公開したい画像をそのフォルダーの中に置きましょう。<br>このフォルダーにおいたものはURLでだれでもアクセスできてしまうことに注意！</p>
+<h3 id="3-ブックマークレットを実行">3.ブックマークレットを実行</h3><p>下記のような画面になったら、先ほど保存していたブックマークレットを実行！！</p>
+<p><img src="http://gyazo.com/ae610954487886ef654f0edc84dc834f.png" alt=""></p>
+<p>すると、各ブロックの上にopenというボタンが表示されているのがわかりますか？<br>そのボタンを押すと、そのままファイルにアクセスすることができます！！</p>
+<p>ちなみに、デベロッパーツールのコンソールには<br>ファイル名とファイルIDが表示されるようにしています。</p>
+<p>ぱぱっと適当に作ったスクリプトですが、<br>ぜひ使ってください(^_^)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>グーグルドライブから直リンクを生成するブックマークレットを作成しました！<br>画像やソースコード、静的なwebサイトを作成するときに便利なんじゃないでしょうか！</p>
+<p>()[<a href="https://gist.github.com/youkyll/fa12]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[ブログを移行しました!!]]></title>
+    <link href="http://youkyll.com/2015/05/23/new-blog/"/>
+    <id>http://youkyll.com/2015/05/23/new-blog/</id>
+    <published>2015-05-23T04:09:54.000Z</published>
+    <updated>2015-05-23T04:09:54.000Z</updated>
+    <content type="html"><![CDATA[<p>今日からブログを移行させました!<br>まだドメインの向き先を変更していないので、<br>すぐには<a href="http://youkyll.com" target="_blank" rel="external">youkyll.com</a>から切り替わらないかと思いますが、そのうち変更しますので少々お待ちを～。</p>
+<h2 id="postach-ioから">postach.ioから</h2><p>今回移行に至った理由は利用していたpostach.ioというサービスが有料になってしまったためです。</p>
+<p><a href="http://postach.io" target="_blank" rel="external">postach.io</a></p>
+<p>このサイトはevernoteのノートブックをそのまま記事にできるという優れものでした。</p>
+<p>evernoteに記事を書いて、そのままpublishedタグを付けて同期すれば投稿できるから、<br>スマホからでも記事がかけるし、同時にevernoteにバックアップもできる!<br>更に言えば、サイトのデザインもカスタマイズし放題で万々歳＼(^o^)／</p>
+<p>しかし、サイトから突然のお知らせが、、、<br>無料版をなくし、すべてを有料に移行!?<br>ある程度は出せるつもりだったのですが、月額1000円ほどするので断念しました。<br>有料になっても特に機能増えてないしね(´・ω・｀)</p>
+<p>ということで、静的ジェネレーターのhexoを利用してgithub pagesを利用することにしました!</p>
+<h2 id="hexoへ">hexoへ</h2><p>hexoはnodejs製の静的ジェネレーターツールです。<br>これを利用すれば、デザインテンプレートと記事から、htmlを吐き出してくれます!</p>
+<p>特に便利なのがgithubの設定を_config.ymlに記載しておけば</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
+<p>でgithubpagesにデプロイしてくれるところ!<br>これは便利!＼(^o^)／</p>
+<p>hexoの細かい使い方やgithub pagesへの上げ方は下記のブログとサイトが参考になりました!</p>
+<ul>
+<li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
+<li><a href="http://blog.otakumode.com/2014/08/08/Blogging-with-hexoio/" target="_blank" rel="external">チームブログをGitHubとHexoではじめよう！</a></li>
+<li><a href="http://hexo.io" target="_blank" rel="external">hexo公式サイト</a></li>
+</ul>
+<p>デザインテンプレートも豊富にあるし、簡単に使えるので、ぜひ使ってみてください!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今日からブログを移行させました!<br>まだドメインの向き先を変更していないので、<br>すぐには<a href="http://youkyll.com" target="_blank" rel="external">youkyll.com</a>から切り替わらないかと思い]]>
+    </summary>
+    
+      <category term="その他" scheme="http://youkyll.com/tags/%E3%81%9D%E3%81%AE%E4%BB%96/"/>
+    
+      <category term="雑談" scheme="http://youkyll.com/categories/%E9%9B%91%E8%AB%87/"/>
+    
+  </entry>
+  
+</feed>
